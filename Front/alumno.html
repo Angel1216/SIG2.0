@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>Welcome...</title>
+	</head>
+	<body>
+		<div id="divAlumno">
+            <h1>Bienvenido</h1>        
+            <br>
+            <h2>Seleccione el horario de su preferencia: </h2>
+            <select id="selectHorario">
+                <option value="1">Horario 1</option>
+                <option value="2">Horario 2</option>
+                <option value="3">Horario 3</option>
+            </select>
+            <input type="button" value="Archivo PDF" onclick="filePDF()">
+		</div>
+        <br>
+        
+        <div id="divDocentes">
+                <h2>Buscar profesores: </h2>
+            <select id="selectDocente">
+                <option>--Seleccionar--</option>
+            </select>
+            <input type="button" value="Profesores" onclick="consultaDocente()">
+        </div>
+
+         <div id="mainPDF">  
+		</div>  
+	</body>
+
+
+    <script src="js/alumno.js"></script>
+    <script src="js/vendor/jquery.js"></script>    
+</html>

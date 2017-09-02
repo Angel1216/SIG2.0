@@ -1,0 +1,54 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+### SIG2.0 ###
+alumno/target/
+alumno/.mvn/
+alumno/.settings/
+alumno/mvnw
+alumno/mvnw.cmd
+alumno/.classpath
+alumno/.project
+
+docente/target/
+docente/.mvn/
+docente/.settings/
+docente/mvnw
+docente/mvnw.cmd
+docente/.classpath
+docente/.project
+
+Front/node_modules/
+
+technologies/target/
+technologies/.mvn/
+technologies/.settings/
+technologies/mvnw
+technologies/mvnw.cmd
+technologies/.classpath
+technologies/.project
+technologies/.sonar/
+technologies/sonar-project.properties

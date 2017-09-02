@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>Welcome...</title>
+	</head>
+	<body>
+		<div id="main">
+            <h1>Alta de docentes: </h1>
+            <br>
+            <table>
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" id="txtNombre"></td>
+                </tr>
+                <tr>
+                    <td>A. Paterno: </td>
+                    <td><input type="text" id="txtPaterno"></td>
+                </tr>
+                <tr>
+                    <td>A. Materno: </td>
+                    <td><input type="text" id="txtMaterno"></td>
+                </tr>
+                <tr>
+                    <td>Grupo: </td>
+                    <td><input type="text" id="txtGrupo"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="button" value="Alta" onclick="altaDocente()">
+		</div>
+
+         <div id="mainPDF">  
+		</div>  
+	</body>
+
+
+    <script src="js/docente.js"></script>
+    <script src="js/vendor/jquery.js"></script>    
+</html>
